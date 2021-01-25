@@ -1,0 +1,284 @@
+@media screen and (min-width:320px){
+    body{
+        background: pink;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      /* Navbar styling */
+      .navcontainer{
+        text-decoration: none;
+        
+      }
+      ul {
+        background-color: rgb(199, 3, 3);
+        color:white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;  
+        width: 100%;
+        justify-content: space-evenly;
+        font-weight: 500;
+        
+      }
+      ul li{
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border: none;
+        color:rgb(255, 255, 255);
+        padding: 1rem;
+     }
+
+     /* add properties form styling */
+        .background{
+            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg") center center repeat-y;
+            background-size: cover;   
+            padding:2rem;    
+            font-weight: 400;
+            overflow: hidden;        
+        }
+        .fromcontainer{
+            font-size: 100px;
+            max-width:100%;
+            margin:auto;
+        
+        }
+        .textinput{
+            display: block;
+            width:100%; 
+                
+        }
+        label{
+            padding: 0.5rem 0.5rem;
+        }
+        input,select,textarea{
+            margin:0.5rem 0.2rem 1rem 0.2rem;
+            padding:0.625rem;
+            border-radius: 2px;
+            border:1px solid rgba(8, 8, 8, 0.219);
+            background-color:#f8f4e5;
+            font-weight: 400;
+        } 
+        .btn{
+            display: block;
+            line-height: 1.5rem ;
+            margin: 0.1rem 0.2rem;
+            padding: 0.5rem 1.2rem;
+            border: none;
+            background: #f45702;
+            color: white;
+            letter-spacing: 2px;
+            transition: .2s all ease-in-out;
+            border-bottom: 2px solid transparent;
+            outline: none;
+        }
+
+        /* Property List Page */
+        .bgcontainer{
+            background-color: rgb(202, 205, 206);
+          }
+        .container{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+        }
+        .searchcontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: no-wrap;
+            align-items: center;
+            /* overflow: scroll; */
+            
+        }
+
+        .searchcontainer .filterlogo{
+            margin: 5px;
+        }
+        .searchcontainer label{
+          /* padding:10px; */
+        }
+        
+        .searchcontainer select{
+          
+          background-color: rgb(233, 233, 219);
+          border-radius: 4px;
+          border: none;
+        }
+        
+        .searchcontainer .selectoption option{
+          padding:5px;
+          border:1px solid black;
+        }
+        
+        .searchcontainer .btn{
+          /* margin:5px; */
+          padding: 5px 10px;
+          background-color: rgb(233, 233, 219);
+          border-radius: 4px;
+          border: none;
+          color:black;
+        
+        }
+        .searchcontainer h2{
+          /* margin:20px; */
+        }
+        .propertycontainer{
+            margin: 30px;
+          }
+          
+          /*  */
+          .flexcontainer{
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            
+            margin-bottom:1rem;
+            border-radius: 4px;
+            background: rgb(223, 226, 226);
+          }
+          .flexright{
+            padding:1rem 1rem 0rem 1rem;
+            width: 100%;
+          }
+          .flexright img{
+            margin: auto;
+            border-radius: 4px;
+            display: block;
+            height: 150px;
+          }
+          
+          .flexleft{
+            max-width: 400px;
+            margin: auto;
+            padding:10px;
+            width: 80%;
+          }
+          .flexleft .unitdropdown{
+            background-color: rgb(233, 233, 219);
+            border-radius: 4px;
+            border: none;
+          }
+          
+          .flexleft .price{
+            font-weight: 900;
+          }
+          
+          /* unit drop down */
+
+          
+      
+      
+}
+
+
+@media screen and (min-width:480px){
+    body{
+        background: rgb(202, 205, 206);
+    }
+    .regiform{        
+        border-bottom: 15px solid rgb(238, 4, 4);
+        display: block;
+        background-color:#f8f4e5;
+        color:rgb(17, 17, 17);  
+        padding: 1rem;
+        margin: auto;
+        max-width:85% ;
+    }
+    .formfields{
+        margin: auto;
+        padding: 2rem;
+    }
+    .container{
+        display: flex;
+        width: 100%;
+      }
+      .flexcontainer{
+        width:100%;
+        display:flex;
+        margin:0rem 1rem 1rem 1rem;
+        
+        border-radius: 4px;
+        flex-direction: column;
+      }
+      .flexright{
+        margin-bottom:10px;
+
+        max-width: 60%;
+        
+        /* border:2px solid red; */
+        
+      }
+      .flexright img{
+        margin: auto;
+        border-radius: 4px;
+        
+        max-width:40vw;
+        height:auto;
+      }
+      
+      .flexleft{
+        background: rgb(223, 226, 226);
+        margin:10px;
+        padding:20px;
+        /* width: 30%; */
+      }
+      .searchcontainer{
+        
+        display: flex;
+        /* flex-direction:column; */
+        justify-content: center;
+        flex-wrap: no-wrap;
+        /* overflow: scroll; */
+        
+    }
+    .propertycontainer{
+      margin: auto;
+      width:50%
+    }
+    
+
+      
+
+      
+      
+}
+@media screen and (min-width:768px){
+    body{
+        background: rgb(202, 205, 206);
+    }
+    .flexcontainer{
+      flex-direction: row;
+    }
+    .flexright img{
+      border-radius: 4px;
+      /* border:4px solid black; */
+      /* box-shadow: 20px rgb(31, 17, 17); */
+      max-width:30vw;
+      height:auto;
+    }
+    .propertycontainer{
+      margin: auto;
+      width:60%
+    }
+    
+    
+}
+@media screen and (min-width:1200px){
+    body{
+        background:  rgb(202, 205, 206);
+    }
+    .propertycontainer{
+      margin: auto;
+      width:50%
+    }
+      
+      
+      /*  */
+      
+    
+}
