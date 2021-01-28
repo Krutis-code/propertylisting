@@ -1,3 +1,6 @@
+
+ 
+ 
  export const properties = [{
      id:101,
     propertyname:'Binori',

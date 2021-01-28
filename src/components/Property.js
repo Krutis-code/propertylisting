@@ -38,7 +38,7 @@ class Property extends Component {
                 <div className="flexcontainer">
                     <div className="flexright">
 
-                    <img src={pictures} alt="image "  className="homeimg"></img>
+                    <img src={process.env.PUBLIC_URL + pictures} alt="picture"  className="homeimg"></img>
                     </div>
                     <div className="flexleft">
                         <h4 className="price">{price}</h4>

@@ -1,4 +1,4 @@
-import React,{Component,useState,useEffect} from 'react'
+import React,{Component} from 'react'
 import {properties} from './data/data';
 
 
@@ -19,12 +19,12 @@ import {properties} from './data/data';
 
     ChangeHandler = (e) =>{
         this.setState({[e.target.name]:e.target.value})
-         console.log(this.state.pictues);
+        //  console.log(this.state.pictues);
     }
     submitHandler=(e)=>{
         e.preventDefault();
         properties.push(this.state);
-        // console.log(properties);
+       
     }   
     render(){
     return (
